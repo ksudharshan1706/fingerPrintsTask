@@ -1,0 +1,15 @@
+.smaller{
+    display: none;
+}
+.larger{
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .smaller{
+        display: block;
+    }
+    .larger{
+        display: none;
+    }
+  }

@@ -1,0 +1,69 @@
+
+.mainheader{
+    
+    background-image: url("../../assets/Hero.png"); 
+    width: 99.9%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    overflow: "auto";
+}
+.content{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    padding: 150px 0px 241.92px 68px;
+}
+
+.mainheader .para{
+    /* width: 578.829px; */
+    transform: rotate(0.386deg);
+    color: #FFFFFF;
+    font-family: FreightDisp Pro;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 62px;
+}
+.headerbutton{
+    display: flex;
+    width: 150px;
+    padding: 13.595px 20.392px;
+    justify-content: center;
+    align-items: center;
+    gap: 6.797px;
+    border-radius: 120px;
+    background: var(--Blue, #292C6D);
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%; 
+    margin-top: 24px;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainheader{
+        width: 100%;
+        height: auto;
+    }
+    .mainheader .para{
+        margin-left: 0px;
+        transform: rotate(0.386deg);
+        color: var(--Neutral-7, #F4F5F6);
+font-family: FreightDisp Pro;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: 43px; /* 107.5% */
+    }
+    .content{
+        padding: 150px 0px 241.92px 30px;
+    }
+    .headerbutton{
+        margin-top: 30px;
+    }
+}

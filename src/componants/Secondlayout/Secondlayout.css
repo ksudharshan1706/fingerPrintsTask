@@ -1,0 +1,112 @@
+.Secondlayoutcontent{
+    /* width:100vw;    */
+    /* min-width: 400px;  */
+height: auto;
+flex-shrink: 0;
+border-radius: 0px 0px 0px 197px;
+flex-wrap: wrap;
+background: linear-gradient(180deg, #292C6D 0%, #414595 100%);
+}
+
+.secondtopcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+}
+.topleftcontainer{
+    /* border: 2px solid red; */
+    width: 40%;
+    /* max-width: 700px; */
+}
+
+.toprightcontainer{
+    
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+width: 40% ;
+margin-left: 10%;
+}
+.toprightcontainer1{
+    
+    color: var(--Neutral-7, #F4F5F6);
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 18.2px */
+letter-spacing: 1.96px;
+}
+.toprightcontainer2{
+    color: var(--Neutral-7, #F4F5F6);
+font-family: FreightDisp Pro;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 48px; /* 100% */
+}
+
+.toprightcontainer3{
+    /* width: 300px; */
+transform: rotate(-0.386deg);
+color: var(--Neutral-7, #F4F5F6);
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+.secondfooter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.footeritems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 300px; */
+}
+
+.videoplayer{
+    width: 50%;
+    height: auto;
+    margin: 100px 25% 100px 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    position: relative;
+    border: 2px solid;
+    overflow:'hidden';
+}
+
+@media only screen and (max-width: 600px) {
+    .Secondlayoutcontent{
+    height: 1300px;
+    }
+    .topleftcontainer{
+        width: 80%;
+    }
+    .toprightcontainer{
+        /* border: 2px solid; */
+    gap: 10px;
+    margin-top: 50px;
+    /* margin-left: 16px; */
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .footeritems{
+        width: 200px;
+    }  
+  }
