@@ -16,11 +16,22 @@ background: linear-gradient(180deg, #292C6D 0%, #414595 100%);
     /* border: 2px solid; */
 }
 .topleftcontainer{
+    position: relative;
     /* border: 2px solid red; */
     width: 40%;
     /* max-width: 700px; */
 }
+.topleftcontainer .whiteRound{
+    border: 2px solid red;
 
+    width:20%;
+    height:20%;
+    border-radius:50%;
+    background-color:white;
+    position:absolute;
+    top:30%;
+    left:90%
+}
 .toprightcontainer{
     
     display: flex;
@@ -88,6 +99,26 @@ line-height: 24px; /* 150% */
     border: 2px solid;
     overflow:'hidden';
 }
+.secondLayoutLogin{
+    margin:10px 0px 0px 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .Secondlayoutcontent{
+    height: 850px;
+    }
+  }
+
+  @media only screen and (max-width: 420px) {
+    .Secondlayoutcontent{
+    height: auto;
+    }
+  }
+
+
 
 @media only screen and (max-width: 600px) {
     .Secondlayoutcontent{
@@ -97,16 +128,26 @@ line-height: 24px; /* 150% */
         width: 80%;
     }
     .toprightcontainer{
-        /* border: 2px solid; */
-    gap: 10px;
-    margin-top: 50px;
-    /* margin-left: 16px; */
-    display: flex;
-    width: auto;
-    flex-direction: column;
-    justify-content: center;
+        gap: 10px;
+        margin-top: 50px;
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
     }
     .footeritems{
         width: 200px;
     }  
+    .secondLayoutLogin{
+        display: flex;
+        width: 143.13px;
+        transform: rotate(-0.386deg);
+        padding: 12.972px 19.458px;
+        justify-content: center;
+        align-items: center;
+        gap: 6.486px;
+        border-radius: 114.504px;
+        border: 0.811px solid var(--Neutral-7, #F4F5F6);
+        margin-left: 0px;
+    }
   }

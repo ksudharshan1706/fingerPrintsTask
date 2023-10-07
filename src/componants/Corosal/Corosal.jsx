@@ -1,7 +1,7 @@
 import React from 'react'
 import { returnsvg,corosal2, leftarrow, rightarrow } from '../../assets'
 import "./Corosal.css"
-
+import Corosal2 from "./Corosal2";
 const Corosal = () => {
   return (
     <div className='corosalMain'>
@@ -13,7 +13,8 @@ const Corosal = () => {
                 <div style={{cursor:"pointer"}}>FULFILLED PROJECTS</div>
             </div>
         </div>
-        <div className='middleContainer'>
+        <Corosal2 />
+        {/* <div className='middleContainer'>
             <div className='middleImgContainer'>
                 <img className='middleImg' src={corosal2} 
                 // style={{width: "870px",height: "584px" ,borderRadius:"10px"}}
@@ -63,7 +64,7 @@ const Corosal = () => {
                 </div>
                 <button className='corosalbutton'>VIEW PROJECT</button>
             </div>
-        </div>
+        </div> */}
         <div className='bottomContainer'>
                 
                 <div style={{cursor:"pointer"}} ><img  src={leftarrow}/>PREVIOUS PROJECT</div>    

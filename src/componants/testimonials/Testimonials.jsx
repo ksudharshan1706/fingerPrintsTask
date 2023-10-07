@@ -1,11 +1,12 @@
 import React from 'react'
 import "./Testimonial.css"
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import Testimonials2 from './Testimonials2';
 const Testimonials = () => {
   return (
     <div>
         <div className='testimonals'>Testimonials</div>
-        <div id="carouselExampleIndicators" className="carousel slide" >
+        <Testimonials2/>
+        {/* <div id="carouselExampleIndicators" className="carousel slide" >
             <div className="carousel-inner container-fluid" style={{height:"500px",width:"700px"}}>
                 <div className="carousel-item active" >
                     <div className='maincontainer'>
@@ -48,18 +49,16 @@ const Testimonials = () => {
                     </div>
                 </div>
             </div>
-            {/* <div style={{backgroundColor:"black",width:"100px",height:"100px"}}> */}
                 <button  style={{backgroundColor:"grey",color:"white",width:"50px",height:"50px",marginTop:"150px",borderRadius:"50%"}} className="carousel-control-prev btn-carosel" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon  btn-carosel" aria-hidden="true"></span>
                     <span className="visually-hidden btn-carosel">Previous</span>
                 </button>
-            {/* </div> */}
             <button style={{backgroundColor:"grey",color:"white",width:"50px",height:"50px",marginTop:"150px",marginright:"100px",borderRadius:"50%"}}
              className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
-            </div>
+            </div> */}
     </div>
   )
 }
