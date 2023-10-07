@@ -1,5 +1,6 @@
 import Hero from "./Hero.png";
 import logo1 from "./logo1.png";
+import shadow from "./shadow.png";
 import Rectangle from "./Rectangle1.png";
 import footerlogo from "./footerlogo.png";
 import corosal1 from "./corosal1.png";
@@ -27,6 +28,7 @@ import rupee from "./rupee.svg";
 import shortterminvestment from "./shortterminvestment.svg";
 
 export {
+  shadow,
   shortterminvestment,
   rupee,
   calender,

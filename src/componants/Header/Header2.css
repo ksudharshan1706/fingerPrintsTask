@@ -1,5 +1,5 @@
 .mainheader{
-    background-image: url("../../assets/Hero.png"); 
+    background-image: url("../../assets/corosal1.png"); 
     width: 100%;
     height: auto;
     background-size: cover;
@@ -20,7 +20,7 @@
     transform: rotate(0.386deg);
     color: #FFFFFF;
     font-family: FreightDisp Pro;
-    width: 50%;
+    width: 100%;
     font-size: 55px;
     /* height: auto; */
     font-style: normal;
@@ -45,6 +45,20 @@
     margin-top: 24px;
 }
 
+@media only screen and (max-width: 780px) {
+    .mainheader .para{
+        transform: rotate(0.386deg);
+        color: #FFFFFF;
+        font-family: FreightDisp Pro;
+        width: 100%;
+        font-size: 40px;
+        /* height: auto; */
+        font-style: normal;
+        font-weight: 500;
+        line-height: 62px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .mainheader{
         width: 100%;
@@ -65,6 +79,14 @@
     }
     .headerbutton{
         margin-top: 30px;
+    }
+    .mainheader  .para2{
+        color: #FF4F17;
+        font-family: FreightDisp Pro;
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 43px;
     }
 }
 
