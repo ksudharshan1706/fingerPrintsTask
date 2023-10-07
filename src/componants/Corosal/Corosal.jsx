@@ -9,7 +9,7 @@ const Corosal = () => {
   return (
     <div className='corosalMain'>
         <div className='topContainer'>
-            <div className='top1container'><h4>OUR INVESTMENT PROPERTIES</h4></div>
+            <div className='top1container' style={{paddingTop:"50px"}}><h4>OUR INVESTMENT PROPERTIES</h4></div>
             <div className='top2container'>Your path to <ColorfulText>profitable</ColorfulText> ventures</div>
             <div className='top3container'>
                 <div style={{cursor:"pointer"}} className='blurClass'>ONGOING PROJECTS</div>

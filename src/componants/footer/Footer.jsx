@@ -4,7 +4,7 @@ import {hrline,footerlogo, youtube, linkedin, facebook, instagram } from '../../
 const Footer = () => {
   return (
     <div className='footer'>
-        <div className='footertop'>Share the Joy of Smart Investments </div>
+        <div className='footertop' style={{paddingTop:"50px"}}>Share the Joy of Smart Investments </div>
         <div className='footerbelowtop'> Invite your friends and family and earn up to 2% of their investments!</div>
         <button className='footerbutton'>CONTACT US</button>
         <div className='footertopbottom'>© 2023 MGP INVESTMENTS</div>

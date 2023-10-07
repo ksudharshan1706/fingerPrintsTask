@@ -48,7 +48,7 @@ function Example()
         },
         {
             corosal:corosal5,
-            siteArea: "Thazhambur",
+            siteArea: "THAZHAMBUR",
             mgpLayout: "MGP Kings Park",
             returnpercent:"5%",
             investment:"INR 9,00,000",
