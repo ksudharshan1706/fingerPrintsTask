@@ -45,7 +45,7 @@ const InvestmentCalculator = () => {
                   <div className='pricebelow3'>in 6 months</div>
               </div>
             </div>
-              <Douhnut/>          
+              <Douhnut className = 'order2'/>          
           </div>
       </div>
     </div>

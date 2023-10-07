@@ -12,7 +12,7 @@ const Secondlayout = () => {
               <div className='toprightcontainer'>
                 <img src={shadow} 
                 className='shadow'
-                style={{position:"absolute",right:-70,top:-200,width:"150%",backgroundColor:"transparent",zIndex:"1",border:"none"}} 
+                style={{position:"absolute",opacity:"0.4",right:-70,top:-200,width:"150%",backgroundColor:"transparent",zIndex:"1",border:"none"}} 
                 />
                 <div className='toprightcontainer1'>WHY MGP</div>
                 <div className='toprightcontainer2'>Easy real estate investments within reach</div>
@@ -42,7 +42,7 @@ const Secondlayout = () => {
                 <div>Easy exit</div>
               </div>
             </div>
-            <div className='videoplayer'>
+            <div className='videoplayer' style={{zIndex:"999"}}>
               <Videoplayer />
             </div>
         </div>
