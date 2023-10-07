@@ -7,7 +7,7 @@ function Videoplayer() {
          <ReactPlayer 
          pip
          width="100%"
-            ref={playerRef} url={VIDEO_PATH} />
+         ref={playerRef} url={VIDEO_PATH} />
    )
 };
 

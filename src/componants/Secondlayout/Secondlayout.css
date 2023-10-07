@@ -17,24 +17,6 @@ background: linear-gradient(180deg, #292C6D 0%, #414595 100%);
     position: relative;
     width: 40%;
 }
-/* .topleftcontainer .whiteRound{
-    width:17%;
-    height:17%;
-    border-radius:50%;
-    background-color:white;
-    position:absolute;
-    top:30%;
-    left:90%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.roundPercent{
-    position: relative;
-    font-size: 3em;
-    font-weight: 400px;
-} */
 
 .toprightcontainer{
     position: relative;
@@ -126,19 +108,6 @@ line-height: 24px; /* 150% */
     }
   }
 
-
-  /* @media only screen and (max-width: 871.5px) {
-    .invermentmiddlecontainerbelow{
-        order: 2;
-    }
-    .order2{
-        margin-bottom: 20px;
-        order: 1;
-    }
-    .invermentmiddlecontainer{
-        display: flex;
-    }
-  } */
 
 @media only screen and (max-width: 768px) {
     .Secondlayoutcontent{

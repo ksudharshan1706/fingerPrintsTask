@@ -14,6 +14,7 @@ const Secondlayout = () => {
                 className='shadow'
                 style={{position:"absolute",opacity:"0.4",right:-70,top:-200,width:"150%",backgroundColor:"transparent",zIndex:"1",border:"none"}} 
                 />
+                
                 <div className='toprightcontainer1'>WHY MGP</div>
                 <div className='toprightcontainer2'>Easy real estate investments within reach</div>
                 <div className='toprightcontainer3'>Discover the ease of real estate investments within reach - steady income, long-term appreciation, and tax advantages await.</div>
@@ -50,12 +51,3 @@ const Secondlayout = () => {
 }
 
 export default Secondlayout
-
-                {/* <div 
-                className='whiteRound'
-                // style={{width:"100px",height:"100px",borderRadius:"50%",backgroundColor:"white",position:"absolute",
-                // top:"20%",left:"90%"}}
-              >
-                <div className='roundPercent'>18</div>
-                <div>% Returns</div>
-              </div> */}

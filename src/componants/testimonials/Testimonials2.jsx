@@ -2,7 +2,7 @@ import React from 'react';
 import "./Testimonils2.css"
 import Carousel from 'react-material-ui-carousel'
 
-function Testimonials2(props)
+function Testimonials2()
 {
     var items = [
         {
@@ -54,13 +54,3 @@ function Item({item})
 }
 
 export default Testimonials2
-
- // <00000000000>
-            {/* <h2>{props.item.name}</h2>
-            <p>{props.item.description}</p>
-
-            <Button className="CheckButton">
-                Check it out!
-            </Button> */}
-            
-        // </Paper>
