@@ -8,9 +8,6 @@ import Bargraphs from "./componants/bargraps/Bargraphs";
 import Testimonials from "./componants/testimonials/Testimonials";
 import Frequent from "./componants/Frequentquestions/Frequent";
 import Footer from "./componants/footer/Footer";
-import Douhnut from "./componants/investmentCalculator/Douhnut";
-import Corosal2 from "./componants/Corosal/Corosal2";
-import Testimonials2 from "./componants/testimonials/Testimonials2";
 const App = () => (
   <div className="app">
     <Navbar />
