@@ -161,3 +161,9 @@ background-color: transparent;
         display: none;
     }
   }
+
+  @media only screen and (max-width: 368px) {
+    .footerimg{
+        display: none;
+    }
+  }
