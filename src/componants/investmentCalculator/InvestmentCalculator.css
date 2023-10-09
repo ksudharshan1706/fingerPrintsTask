@@ -130,6 +130,7 @@ letter-spacing: 0.045px;
         order: 2;
     }
     .order2{
+        width: 75%;
         margin-bottom: 20px;
         order: 1;
     }

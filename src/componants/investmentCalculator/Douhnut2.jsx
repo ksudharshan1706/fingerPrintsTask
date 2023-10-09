@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useRef } from 'react'
 import  Chart from "chart.js/auto"
 import "./Douhnut.css"
-const Douhnut = () => {
+const Douhnut2 = () => {
 
 
     const Chartref = useRef(null)
@@ -29,9 +29,9 @@ const Douhnut = () => {
     },[])
   return (
     <div >
-        <canvas ref={Chartref}style={{maxWidth:"500px",width:"400px"}} />
+        <canvas ref={Chartref}style={{maxWidth:"500px",width:"300px"}} />
     </div>
   )
 }
 
-export default Douhnut
+export default Douhnut2
